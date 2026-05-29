@@ -8,28 +8,28 @@ const certifications = [
     title: 'Python programming Certification',
     issuer: 'IIT Bombay - Spoken Tutorial',
     date: '2024',
-    link: '#',
+    link: 'https://www.linkedin.com/posts/hemant-patil-331163289_java-certification-iitbombay-activity-7294234821361377280-FGd5?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEX32BUBpMSjJXe-SiX7f9lvo6kgzDBtES4',
     image: null,
   },
   {
-    title: 'Web Development Fundamentals',
-    issuer: 'freeCodeCamp',
-    date: '2024',
-    link: '#',
-    image: null,
-  },
-  {
-    title: 'Data Structures & Algorithms',
-    issuer: 'Coursera',
+    title: 'Idea Pitching Competition At E-Cell MET BKC',
+    issuer: 'MET BKC - Eureka',
     date: '2023',
-    link: '#',
+    link: 'https://www.linkedin.com/posts/hemant-patil-331163289_participated-in-an-idea-pitching-competition-activity-7246945697000800256-UZHE?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEX32BUBpMSjJXe-SiX7f9lvo6kgzDBtES4',
     image: null,
   },
   {
-    title: 'React.js Certification',
-    issuer: 'Meta',
-    date: '2023',
-    link: '#',
+    title: 'Runner Up in Hackathon',
+    issuer: 'Sapkal Knowledge Hub, IOE, Nashik',
+    date: '2026',
+    link: 'https://www.linkedin.com/posts/hemant-patil-331163289_hackathon-technofest-runnerup-activity-7457445830266953728-GmS_?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEX32BUBpMSjJXe-SiX7f9lvo6kgzDBtES4',
+    image: null,
+  },
+  {
+    title: 'Participating in Project Expo - PROJIT',
+    issuer: 'JIT COE, Nashik',
+    date: '2026',
+    link: 'https://www.linkedin.com/posts/hemant-patil-331163289_projit-achievement-futureengineer-activity-7429197655857262593-aZIa?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEX32BUBpMSjJXe-SiX7f9lvo6kgzDBtES4',
     image: null,
   },
   {
@@ -40,10 +40,10 @@ const certifications = [
     image: null,
   },
   {
-    title: 'Machine Learning Foundations',
-    issuer: 'Stanford Online',
-    date: '2023',
-    link: '#',
+    title: 'WEB APPLICATION DEVELOPMENT',
+    issuer: 'Supratechai Innovations pvt ltd, Nashik',
+    date: '2026',
+    link: 'https://www.linkedin.com/posts/hemant-patil-331163289_internship-webdevelopment-softwaredevelopment-activity-7460701899571306496-4-Cy?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEX32BUBpMSjJXe-SiX7f9lvo6kgzDBtES4',
     image: null,
   },
 ];
@@ -88,7 +88,7 @@ const CertificationsSection = () => {
                   <p className="text-xs text-muted-foreground/70">{cert.date}</p>
                 </div>
               </div>
-              
+
               <div className="mt-4 pt-4 border-t border-border/50">
                 <a
                   href={cert.link}

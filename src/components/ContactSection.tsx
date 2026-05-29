@@ -104,7 +104,7 @@ const ContactSection = () => {
                     onChange={handleChange}
                     required
                     className="w-full px-4 py-3 rounded-lg bg-background border border-border focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all"
-                    placeholder="John Doe"
+                    placeholder="Enter Name"
                   />
                 </div>
 
