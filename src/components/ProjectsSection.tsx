@@ -23,7 +23,7 @@ const projects = [
     description: 'Blocked chain based Hospital management system with real-time patient monitoring and appointment scheduling. And Security and compliance features to protect patient data. Also used to get Un-Tempered data of patients vitals and health conditions. ',
     techStack: ['React', 'TypeScript', 'Blockchain SHA-256', 'Spring Boot', 'Java', 'MySQL'],
     github: 'https://github.com/yashcodeworks/RxChain',
-    live: '#',
+    live: 'https://rx-chain.vercel.app/login',
   },
   {
     title: 'Vote-Wise',
@@ -40,10 +40,10 @@ const projects = [
     live: 'https://scan-grow.netlify.app/',
   },
   {
-    title: 'Algorithm Visualizer',
-    description: 'Interactive tool for visualizing sorting and pathfinding algorithms with step-by-step animations and complexity analysis.',
-    techStack: ['React', 'TypeScript', 'Framer Motion'],
-    github: 'https://github.com',
+    title: 'SentinelX',
+    description: 'SentinelX is an enterprise-level Security Information and Event Management (SIEM) platform that collects, analyzes, and monitors security logs to detect cyber threats in real time. It uses rule-based threat detection to identify attacks such as brute force, port scanning, DDoS, suspicious admin logins, privilege escalation, and malicious IP activity, while providing alert management, incident tracking, security reporting, and an interactive SOC dashboard.',
+    techStack: ['React', 'JavaScript', 'Python', 'SQLite3', 'CSS'],
+    github: 'https://github.com/Hemantpatil1/Sentinelx',
     live: '#',
   },
 ];
